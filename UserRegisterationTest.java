@@ -54,7 +54,7 @@ public class UserRegisterationTest {
 
     @Test
     public void givenMinimumEightCharacterPassword_WhenProper_ShouldReturnTrue() {
-        boolean result = validator.isValidPassword("him1234");
+        boolean result = validator.isValidPassword("himan1234");
         Assert.assertTrue(result);
     }
 
